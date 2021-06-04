@@ -13,4 +13,21 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  padding: 0;
+}
+
+#main {
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  background-color: red;
+  border: none;
 }
