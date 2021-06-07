@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+.content {
+  max-width: 500px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -27,7 +31,14 @@ p {
 button {
   position: absolute;
   left: 0;
-  top: 5px;
-  background-color: red;
+  top: 0;
+  background-color: rgb(252, 81, 81);
   border: none;
+  text-align: center;
+  border-radius: 0px 0px 25px 0px;
+  cursor: pointer;
+}
+
+button > img {
+  padding: 5px;
 }
