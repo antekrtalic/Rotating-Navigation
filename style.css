@@ -20,10 +20,6 @@ body {
   text-align: center;
 }
 
-.content {
-  max-width: 500px;
-}
-
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -35,10 +31,11 @@ button {
   background-color: rgb(252, 81, 81);
   border: none;
   text-align: center;
-  border-radius: 0px 0px 25px 0px;
+  border-radius: 20%;
   cursor: pointer;
 }
 
 button > img {
   padding: 5px;
+  display: block;
 }
