@@ -36,8 +36,10 @@ ul {
 }
 
 li img {
-  margin-top: 5px;
+  position: relative;
+  top: 5px;
 }
+
 a {
   text-decoration: none;
   color: #fff;
@@ -46,10 +48,12 @@ a {
   font-size: 14px;
 }
 .content {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: #fff;
+  height: 100vh;
 }
 
 p {
@@ -65,6 +69,7 @@ button {
   text-align: center;
   border-radius: 20%;
   cursor: pointer;
+  z-index: 2;
 }
 
 button > img {
