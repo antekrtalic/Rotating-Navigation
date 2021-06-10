@@ -4,8 +4,6 @@ const content = document.querySelector('.content');
 
 btn.addEventListener('click', () => {
     
-    content.style.transform = 'rotate(-25deg)';
-    content.style.transformOrigin = '0 0';
-    
-    content.style.transition = '2s linear all';
+    content.style.transform = 'rotate(-25deg) translate(160px, -90px)';
+    content.style.transition = '0.4s ease-in';
 })
