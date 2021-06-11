@@ -37,7 +37,7 @@ ul {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 li:nth-child(2) {
@@ -80,25 +80,33 @@ p {
 }
 
 .circle {
-  height: 50px;
-  width: 50px;
+  height: 140px;
+  width: 140px;
   background-color: rgb(252, 81, 81);
+  border-radius: 50%;
   z-index: 2;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -45px;
+  left: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   background-color: rgb(252, 81, 81);
-  border: none;
   text-align: center;
   cursor: pointer;
-
   display: flex;
+  justify-content: space-between;
+  width: 70%;
+  border: none;
+  /* position: absolute;
+  left: 18%;
+  top: 35%; */
+  margin: 0;
 }
 
 button > img {
-  padding: 10px;
   display: block;
 }
