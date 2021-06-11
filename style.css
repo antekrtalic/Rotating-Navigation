@@ -79,19 +79,26 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-button {
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(252, 81, 81);
+  z-index: 2;
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
+}
+
+button {
   background-color: rgb(252, 81, 81);
   border: none;
   text-align: center;
-  border-radius: 20%;
   cursor: pointer;
-  z-index: 2;
+
+  display: flex;
 }
 
 button > img {
-  padding: 5px;
+  padding: 10px;
   display: block;
 }
