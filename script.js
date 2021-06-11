@@ -10,11 +10,13 @@ btn.addEventListener('click', () => {
         content.classList.remove('active');
         btn.style.transform = 'rotate(0deg)';
         btn.style.transition = '1s linear';
+        document.body.style.overflow = 'visible';
     } else {
         content.style.transform = 'rotate(-20deg) translate(212px, -240px)';
         content.style.transition = '0.4s ease-in';
         content.classList.add('active');
         btn.style.transform = 'rotate(-180deg)';
         btn.style.transition = '1s linear';
+        document.body.style.overflow = 'hidden';
     }
 })
